@@ -1,0 +1,14 @@
+.input {
+  height: 60px;
+
+  border: 1px solid $input-border;
+  outline: none;
+
+  padding: 20px 30px;
+
+  transition: border 0.3s ease;
+
+  &-error {
+    border: 1px solid $input-error;
+  }
+}

@@ -1,0 +1,57 @@
+.form {
+  &-callback {
+    position: absolute;
+    top: 80px;
+    right: 60px;
+
+    width: 500px;
+
+    padding: 45px;
+    box-shadow: 0 0 50px 0 rgba($color: #000000, $alpha: 0.035);
+
+    font-family: "Montserrat", sans-serif;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+
+    &--visible {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &__title {
+      font-size: $font-size-7;
+
+      margin-bottom: 20px;
+    }
+
+    &__input {
+      width: 100%;
+
+      margin-bottom: 15px;
+    }
+
+    &__policy {
+      margin-top: 20px;
+    }
+  }
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+
+  &__label {
+    font-size: $font-size-8 - 2;
+    &--important {
+      color: $text-orange;
+
+      transition: color 0.15s ease;
+
+      &:hover {
+        color: lighten($text-orange, $amount: 10);
+      }
+    }
+  }
+}

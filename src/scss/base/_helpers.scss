@@ -9,6 +9,21 @@
   margin-right: auto;
 }
 
+.border-br-tl {
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.border-small-br-tl {
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.border-bl-tr {
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .logo {
   width: 135px;
 }

@@ -1,0 +1,56 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  &:hover .checkbox__mark {
+    border: 1px solid $input-border-accept;
+  }
+
+  input {
+    display: none;
+
+    &:checked ~ .checkbox__mark {
+      border: 1px solid $input-border-accept;
+    }
+
+    &:checked ~ .checkbox__label {
+      color: $text-black;
+    }
+
+    &:checked ~ .checkbox__mark::after {
+      opacity: 1;
+    }
+  }
+
+  &__mark {
+    display: block;
+    position: relative;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+
+    background-color: $palette-white;
+    border: 1px solid $input-border;
+
+    transition: all 0.15s ease;
+
+    &::after {
+      content: url("../img/icons/accept.svg");
+      position: absolute;
+      top: 0;
+      left: 4px;
+
+      opacity: 0;
+
+      transition: all 0.15s ease;
+    }
+  }
+
+  &__label {
+    transition: color 0.15s ease;
+  }
+}

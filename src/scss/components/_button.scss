@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // В этом файле стили для компонента "кнопка"
 // -----------------------------------------------------------------------------
+
+.button {
+  width: 225px;
+  height: 60px;
+
+  outline: none;
+  cursor: pointer;
+}
+
+.button-form {
+  border: 1px solid $button-form;
+
+  color: $text-gray;
+  background-color: $palette-white;
+}

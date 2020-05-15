@@ -5,11 +5,14 @@
 #header {
   position: relative;
   z-index: $z-index-header;
+
   background-color: $palette-black;
 
   .container {
     display: flex;
     align-items: center;
+
+    position: relative;
 
     height: 80px;
   }
