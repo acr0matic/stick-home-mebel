@@ -1,0 +1,21 @@
+.nav {
+  width: 35%;
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item {
+    &:hover > a {
+      color: $text-green;
+    }
+  }
+
+  &__link {
+    color: $text-white;
+
+    transition: color 0.15s ease;
+  }
+}

@@ -1,3 +1,24 @@
 // -----------------------------------------------------------------------------
 // В этом файле прописываются все стили относящиеся к шапке сайта
 // -----------------------------------------------------------------------------
+
+#header {
+  position: relative;
+  z-index: $z-index-header;
+  background-color: $palette-black;
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    height: 80px;
+  }
+
+  .logo {
+    margin-right: 100px;
+  }
+
+  .callback {
+    margin-left: auto;
+  }
+}

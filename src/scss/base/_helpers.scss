@@ -8,3 +8,49 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.logo {
+  width: 135px;
+}
+
+.callback {
+  display: flex;
+  align-items: center;
+
+  &-action {
+    display: flex;
+    align-items: center;
+
+    &:hover span {
+      color: lighten($text-green, $amount: 10);
+    }
+
+    &:hover path {
+      fill: lighten($text-green, $amount: 10);
+    }
+
+    cursor: pointer;
+  }
+
+  &__icon {
+    margin-right: 5px;
+
+    path {
+      transition: fill 0.15s ease;
+    }
+  }
+
+  &__label {
+    color: $text-green;
+    transition: color 0.15s ease;
+  }
+
+  &__time {
+    color: $text-darkgray;
+    margin: 0 15px;
+  }
+
+  &__phone {
+    color: $text-white;
+  }
+}
