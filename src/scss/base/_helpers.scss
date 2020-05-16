@@ -129,3 +129,10 @@
     left: 0;
   }
 }
+
+.column {
+  $margin: 30px;
+
+  width: 47%; // Для старых браузеров
+  width: calc((100% / 2) - #{$margin});
+}

@@ -16,7 +16,8 @@
     $margin: 30px;
 
     position: relative;
-    
+
+    width: 31%; // Для старых браузеров
     width: calc((100% / 3) - #{$margin});
     margin-bottom: $margin;
 
@@ -42,5 +43,12 @@
       font-size: $font-size-8;
       font-weight: $weight-regular;
     }
+  }
+
+  &-description {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
   }
 }

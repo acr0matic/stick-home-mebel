@@ -19,4 +19,11 @@ a {
   color: $text-green;
 }
 
+.paragraph {
+  line-height: $line-height-0;
+  color: $text-black;
+  font-size: $font-size-8;
 
+  margin-top: 0;
+  margin-bottom: 30px;
+}
