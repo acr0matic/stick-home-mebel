@@ -20,6 +20,10 @@ html {
   box-sizing: inherit;
 }
 
+section:not(:first-child) {
+  padding-top: 55px;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,7 +32,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-
 
 h1,
 h2,

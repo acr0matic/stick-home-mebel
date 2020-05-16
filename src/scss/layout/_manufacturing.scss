@@ -1,0 +1,46 @@
+#manufacturing {
+  .section-title {
+    justify-content: space-between;
+  }
+}
+
+.manufacturing {
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-card {
+    $margin: 30px;
+
+    position: relative;
+    
+    width: calc((100% / 3) - #{$margin});
+    margin-bottom: $margin;
+
+    &:hover {
+      .image-wrapper {
+        border: 1px solid $text-green;
+      }
+
+      .image-wrapper__image {
+        transform: scale(1.05);
+      }
+
+      .manufacturing-title__heading {
+        color: $text-green;
+      }
+    }
+  }
+
+  &-title {
+    margin-top: 20px;
+
+    &__heading {
+      font-size: $font-size-8;
+      font-weight: $weight-regular;
+    }
+  }
+}
