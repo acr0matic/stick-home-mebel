@@ -1,0 +1,40 @@
+#hero {
+  .container {
+    background-image: url("../img/hero-background.jpg");
+    background-size: cover;
+
+    border-bottom-right-radius: 40px;
+  }
+}
+
+.hero {
+  &-wrapper {
+    padding: 85px;
+  }
+
+  &-text {
+    font-family: "Montserrat", sans-serif;
+
+    &__title {
+      color: $text-white;
+      font-weight: $weight-extrabold;
+      font-size: $font-size-1;
+    }
+
+    &__subtitle {
+      color: $text-orange;
+      font-weight: $weight-regular;
+      font-size: $font-size-6;
+
+      margin-top: 30px;
+    }
+  }
+
+  &-action {
+    margin-top: 40px;
+
+    &__button {
+      margin-right: 40px;
+    }
+  }
+}

@@ -7,7 +7,31 @@
   height: 60px;
 
   outline: none;
+  border: none;
   cursor: pointer;
+}
+
+.button-primary {
+  color: $text-white;
+  background-color: $button-primary;
+
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: $button-primary-hover;
+  }
+}
+
+.button-secondary {
+  color: $text-white;
+  background-color: transparent;
+
+  border: 1px solid $button-secondary;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: $text-green;
+  }
 }
 
 .button-form {
