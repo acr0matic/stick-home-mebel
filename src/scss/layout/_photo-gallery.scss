@@ -1,0 +1,30 @@
+.photo-gallery {
+  &-card {
+    position: relative;
+    margin-bottom: 30px;
+
+    &:hover {
+
+      .photo-gallery-title__heading {
+        color: $text-green;
+      }
+
+      .image-wrapper {
+        border: 1px solid $text-green;
+      }
+
+      .image-wrapper__image {
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  &-title {
+    margin-top: 20px;
+
+    &__heading {
+      font-size: $font-size-5;
+      font-weight: $weight-medium;
+    }
+  }
+}

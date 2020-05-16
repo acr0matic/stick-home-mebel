@@ -113,6 +113,7 @@
   transition: all 0.15s ease;
 
   &__image {
+    display: block;
     width: 100%;
     transition: all 0.15s ease;
   }
@@ -135,4 +136,9 @@
 
   width: 47%; // Для старых браузеров
   width: calc((100% / 2) - #{$margin});
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
