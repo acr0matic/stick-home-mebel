@@ -4,7 +4,6 @@
     margin-bottom: 30px;
 
     &:hover {
-
       .photo-gallery-title__heading {
         color: $text-green;
       }
@@ -16,6 +15,10 @@
       .image-wrapper__image {
         transform: scale(1.03);
       }
+
+      .photo-gallery-inner__action {
+        color: lighten($text-green, $amount: 10);
+      }
     }
   }
 
@@ -25,6 +28,33 @@
     &__heading {
       font-size: $font-size-5;
       font-weight: $weight-medium;
+    }
+  }
+
+  &-inner {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+    &__heading {
+      color: $text-white;
+      font-size: $font-size-2;
+    }
+
+    &__action {
+      display: block;
+      margin-top: 15px;
+
+      color: $text-green;
+      font-size: $font-size-7;
+      font-weight: $weight-medium;
+
+      transition: color 0.15s ease;
+
+      &::after {
+        content: url("../img/icons/arrow.png");
+        margin-left: 5px;
+      }
     }
   }
 }
