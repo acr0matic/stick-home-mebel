@@ -1,0 +1,28 @@
+#materials {
+  .section-title__additional {
+    color: $text-blue;
+
+    &:hover {
+      color: lighten($text-blue, $amount: 20);
+    }
+  }
+}
+
+.material {
+  position: relative;
+
+  margin-bottom: 30px;
+
+  &__image {
+    width: 100%;
+  }
+
+  &__title {
+    position: absolute;
+    top: 65px;
+    left: 60px;
+
+    font-size: $font-size-0;
+    color: $text-white;
+  }
+}

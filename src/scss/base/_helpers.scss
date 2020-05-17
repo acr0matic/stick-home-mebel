@@ -84,6 +84,8 @@
   }
 
   &__additional {
+    transition: all 0.15s ease;
+    
     &--like {
       &::before {
         content: url("../img/icons/like.png");
