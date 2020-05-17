@@ -1,0 +1,41 @@
+#callback {
+  background-color: $palette-grey;
+
+  padding-bottom: $section-padding;
+
+  .callback {
+    flex-direction: column;
+  }
+}
+
+.callback {
+  &-title {
+    width: 100%;
+
+    text-align: center;
+    &__heading {
+      font-size: $font-size-4;
+      font-weight: $weight-medium;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      color: $text-black;
+      font-size: $font-size-4;
+    }
+  }
+
+  &-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 45px;
+
+    .input {
+      flex-grow: 1;
+      margin-right: 50px;
+    }
+  }
+}

@@ -9,34 +9,49 @@
   outline: none;
   border: none;
   cursor: pointer;
-}
+  transition: all 0.15s ease;
 
-.button-primary {
-  color: $text-white;
-  background-color: $button-primary;
+  &-primary {
+    color: $text-white;
+    background-color: $button-primary;
 
-  transition: background-color 0.15s ease;
+    &:hover {
+      background-color: $button-primary-hover;
+    }
+  }
 
-  &:hover {
-    background-color: $button-primary-hover;
+  &-secondary {
+    color: $text-white;
+    background-color: transparent;
+
+    border: 1px solid $button-secondary;
+
+    &:hover {
+      color: $text-green;
+    }
+  }
+
+  &-form {
+    border: 1px solid $button-form;
+
+    color: $text-gray;
+    background-color: $palette-white;
+  }
+
+  &:disabled {
+    background-color: $button-disabled;
+    color: $text-white;
+
+    cursor: default;
+  }
+
+  &-active {
+    background-color: $button-primary;
+    color: $text-white;
+
+    &:hover {
+      background-color: $button-primary-hover;
+    }
   }
 }
 
-.button-secondary {
-  color: $text-white;
-  background-color: transparent;
-
-  border: 1px solid $button-secondary;
-  transition: color 0.15s ease;
-
-  &:hover {
-    color: $text-green;
-  }
-}
-
-.button-form {
-  border: 1px solid $button-form;
-
-  color: $text-gray;
-  background-color: $palette-white;
-}

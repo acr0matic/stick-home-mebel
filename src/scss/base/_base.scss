@@ -21,7 +21,7 @@ html {
 }
 
 section:not(:first-child) {
-  padding-top: 55px;
+  padding-top: $section-padding;
 }
 
 a {
