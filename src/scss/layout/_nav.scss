@@ -19,3 +19,17 @@
     transition: color 0.15s ease;
   }
 }
+
+#footer {
+  .nav {
+    width: 100%;
+
+    &__navbar {
+      justify-content: flex-end;
+    }
+
+    &__item {
+      margin-left: 30px;
+    }
+  }
+}
