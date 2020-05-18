@@ -36,6 +36,11 @@
 
     color: $text-gray;
     background-color: $palette-white;
+
+    &:hover {
+      border: 1px solid $button-secondary;
+      color: $text-green;
+    }
   }
 
   &:disabled {

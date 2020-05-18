@@ -36,7 +36,10 @@
     display: flex;
     align-items: center;
 
-    &:hover span {
+    cursor: pointer;
+
+
+    &:hover button {
       color: lighten($text-green, $amount: 10);
     }
 
@@ -44,20 +47,24 @@
       fill: lighten($text-green, $amount: 10);
     }
 
-    cursor: pointer;
-  }
+    &__icon {
+      margin-right: 5px;
 
-  &__icon {
-    margin-right: 5px;
-
-    path {
-      transition: fill 0.15s ease;
+      path {
+        transition: fill 0.15s ease;
+      }
     }
-  }
 
-  &__label {
-    color: $text-green;
-    transition: color 0.15s ease;
+    &__label {
+      border: none;
+      transition: color 0.15s ease;
+      color: $text-green;
+
+      outline: none;
+
+      background: none;
+      cursor: pointer;
+    }
   }
 
   &__time {
@@ -67,6 +74,12 @@
 
   &__phone {
     color: $text-white;
+
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $text-gray;
+    }
   }
 }
 
@@ -85,7 +98,7 @@
 
   &__additional {
     transition: all 0.15s ease;
-    
+
     &--like {
       &::before {
         content: url("../img/icons/like.png");

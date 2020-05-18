@@ -29,6 +29,10 @@
       font-size: $font-size-5;
       font-weight: $weight-medium;
     }
+
+    &__additional {
+      margin-left: auto;
+    }
   }
 
   &-inner {
