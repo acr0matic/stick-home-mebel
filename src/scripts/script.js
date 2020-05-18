@@ -4,3 +4,9 @@ let callbackForm = document.querySelector(".form-callback");
 callbackButton.addEventListener("click", () => {
   callbackForm.classList.toggle("form-callback--visible");
 });
+
+window.addEventListener("click", (e) => {
+  let target = e.target;
+  if ((!target.closest(".callback-action") && !target.closest(".form-callback")))
+      callbackForm.classList.toggle("form-callback--visible");
+});
