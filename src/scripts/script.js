@@ -10,9 +10,8 @@ callbackButton.addEventListener("click", () => {
 window.addEventListener("click", (e) => {
   let target = e.target;
   if (!target.closest(".callback-action") && !target.closest(".form-callback"))
-    callbackForm.classList.toggle("form-callback--visible");
+    callbackForm.classList.remove("form-callback--visible");
 });
-
 
 let modalListeners = document.querySelectorAll("[data-material]");
 for (const modal of modalListeners) {
