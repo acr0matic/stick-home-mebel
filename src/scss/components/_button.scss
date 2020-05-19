@@ -31,6 +31,23 @@
     }
   }
 
+  &-gallery {
+    width: unset;
+
+    background-color: transparent;
+    border: 1px solid $button-secondary;
+    padding: 0 25px;
+
+    &:hover {
+      color: $text-green;
+    }
+
+    &__number {
+      color: $text-gray;
+      font-weight: $weight-medium;
+    }
+  }
+
   &-form {
     border: 1px solid $button-form;
 
@@ -56,7 +73,11 @@
 
     &:hover {
       background-color: $button-primary-hover;
+      color: $text-white;
+    }
+
+    .button-gallery__number {
+      color: $text-white;
     }
   }
 }
-

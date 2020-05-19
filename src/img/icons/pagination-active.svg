@@ -1,0 +1,17 @@
+<svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #75b726;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #75b726;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-1" cx="8.5" cy="8.5" r="8"/>
+  <circle id="Эллипс_1_копия_7" data-name="Эллипс 1 копия 7" class="cls-2" cx="8.5" cy="8.5" r="4"/>
+</svg>

@@ -4,6 +4,7 @@
 @import "vendors/normalize";
 @import "vendors/family";
 @import "vendors/breakpoint";
+@import "vendors/swiper";
 
 // 2. Подключение базовых функций и переменных
 @import
@@ -27,6 +28,7 @@
   'layout/materials',
   'layout/nav',
   'layout/callback',
+  'layout/gallery',
 
   'layout/main-page/manufacturing',
   'layout/main-page/photo-gallery',
@@ -38,5 +40,6 @@
   'components/input',
   'components/checkbox',
   'components/modal',
+  'components/slider',
   'components/forms';
 
