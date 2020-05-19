@@ -48,6 +48,11 @@
     }
   }
 
+  &-communication {
+    color: $text-black;
+    font-size: $font-size-8;
+  }
+
   &-form {
     border: 1px solid $button-form;
 
