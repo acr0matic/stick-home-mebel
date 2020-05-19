@@ -22,19 +22,21 @@
 // 4. Подключение стилей разметки
 @import
   'layout/header',
-  'layout/nav',
+  'layout/footer',
   'layout/hero',
-  'layout/manufacturing',
-  'layout/photo-gallery',
   'layout/materials',
-  'layout/advantages',
+  'layout/nav',
   'layout/callback',
-  'layout/footer';
+
+  'layout/main-page/manufacturing',
+  'layout/main-page/photo-gallery',
+  'layout/main-page/advantages';
 
 // 5. Подключение стилей компонентов
 @import
   'components/button',
   'components/input',
   'components/checkbox',
+  'components/modal',
   'components/forms';
 

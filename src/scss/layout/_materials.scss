@@ -8,13 +8,33 @@
   }
 }
 
+.materials {
+  &-row {
+    margin-bottom: 30px;
+  }
+}
+
 .material {
   position: relative;
 
   margin-bottom: 30px;
+  overflow: hidden;
+
+  &--action {
+    cursor: pointer;
+
+    &:hover {
+      .material__image {
+        transform: scale(1.025);
+      }
+    }
+  }
 
   &__image {
+    display: block;
+
     width: 100%;
+    transition: all 0.3s ease;
   }
 
   &__title {
