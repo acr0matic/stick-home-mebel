@@ -9,6 +9,7 @@
   outline: none;
   border: none;
   cursor: pointer;
+
   transition: all 0.15s ease;
 
   &-primary {
@@ -32,15 +33,10 @@
   }
 
   &-gallery {
+    color: $text-black;
+
     width: unset;
-
-    background-color: transparent;
-    border: 1px solid $button-secondary;
     padding: 0 25px;
-
-    &:hover {
-      color: $text-green;
-    }
 
     &__number {
       color: $text-gray;
