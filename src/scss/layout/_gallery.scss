@@ -1,6 +1,17 @@
 .gallery {
   margin-top: 50px;
 
+  &-return {
+    color: $text-link;
+
+    &::before {
+      content: url("../img/icons/arrow-back.png");
+      vertical-align: middle;
+
+      margin-right: 10px;
+    }
+  }
+
   &__filters {
     display: flex;
     align-items: center;

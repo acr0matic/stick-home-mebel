@@ -1,0 +1,48 @@
+.product {
+  margin-top: 40px;
+
+  &__row {
+    margin: 30px 0;
+  }
+
+  &__title {
+    font-size: $font-size-3;
+    font-weight: $weight-medium;
+    line-height: $line-height-1;
+
+    margin-bottom: 20px;
+  }
+
+  &__description {
+
+  }
+}
+.product-gallery {
+  $margin: 15px;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__primary,
+  &__secondary {
+    &:hover {
+      .product-gallery__image {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__primary {
+    margin-bottom: $margin;
+  }
+
+  &__secondary {
+
+    width: 23%;
+    width: calc((100% / 4) - #{$margin});
+  }
+
+}

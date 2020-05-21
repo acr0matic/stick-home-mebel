@@ -11,12 +11,17 @@
 .callback {
   &-title {
     width: 100%;
-
     text-align: center;
+
     &__heading {
       font-size: $font-size-4;
       font-weight: $weight-medium;
       margin-bottom: 10px;
+
+      &--common {
+        color: $text-black;
+        font-weight: $weight-regular;
+      }
     }
 
     &__text {

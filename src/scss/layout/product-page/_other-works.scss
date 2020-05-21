@@ -1,0 +1,25 @@
+.other-works {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 30px;
+
+  &__image-wrapper {
+    $margin: 30px;
+
+    position: relative;
+
+    width: 22.5%;
+    width: calc((100% / 4) - #{$margin});
+
+    height: 205px;
+
+    &:hover {
+      .other-works__image {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
