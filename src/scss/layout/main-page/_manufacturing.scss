@@ -21,6 +21,10 @@
     width: calc((100% / 3) - #{$margin});
     margin-bottom: $margin;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
+
     &:hover {
       .image-wrapper {
         border: 1px solid $text-green;

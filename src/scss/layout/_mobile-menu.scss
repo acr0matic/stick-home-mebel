@@ -1,0 +1,65 @@
+.hamburger {
+  display: none;
+  outline: none;
+
+  margin-left: auto;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    display: block;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  z-index: $z-index-second;
+  top: 80px;
+  width: 100%;
+
+  padding: 30px 15px;
+
+  background-color: $palette-darkgrey;
+
+  visibility: hidden;
+
+  &--slide {
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+  }
+
+  &--open {
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  &__item {
+    margin-bottom: 35px;
+  }
+
+  &__link {
+    color: $text-white;
+  }
+
+  .callback {
+    margin-top: 55px;
+
+    flex-direction: column-reverse;
+    align-items: flex-start;
+
+    &__info {
+      margin-bottom: 15px;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-end;
+
+      &__phone {
+        color: $text-white;
+        margin-right: 15px;
+      }
+    }
+  }
+
+}
+

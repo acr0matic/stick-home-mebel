@@ -4,21 +4,45 @@
     background-size: cover;
 
     border-bottom-right-radius: 40px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      background-position: center;
+      width: 100%;
+    }
   }
 }
 
 .hero {
   &-wrapper {
     padding: 85px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      padding: 160px 0 0 0;
+      margin: 0 auto 0 auto;
+
+      width: 90%;
+    }
   }
 
   &-text {
     font-family: "Montserrat", sans-serif;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-bottom: 140px;
+    }
+
     &__title {
       color: $text-white;
       font-weight: $weight-extrabold;
       font-size: $font-size-1;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        font-size: $font-size-2;
+      }
+
+      @include breakpoint($breakpoint-mobile-medium) {
+        font-size: $font-size-3;
+      }
     }
 
     &__subtitle {
@@ -27,14 +51,27 @@
       font-size: $font-size-6;
 
       margin-top: 30px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        font-size: $font-size-8;
+      }
     }
   }
 
   &-action {
     margin-top: 40px;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      text-align: center;
+    }
+
     &__button {
       margin-right: 40px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
     }
   }
 }

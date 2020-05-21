@@ -9,6 +9,10 @@ body {
 span {
   font-size: $font-size-8;
   color: $text-gray;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    font-size: $font-size-9;
+  }
 }
 
 a[href^="tel:"] {

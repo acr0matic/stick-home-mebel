@@ -8,6 +8,11 @@
 
   background-color: $palette-black;
 
+  @include breakpoint($breakpoint-mobile-large) {
+    position: fixed;
+    width: 100%;
+  }
+
   .container {
     display: flex;
     align-items: center;
@@ -23,5 +28,15 @@
 
   .callback {
     margin-left: auto;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
+  }
+
+  .nav {
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 }

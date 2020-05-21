@@ -5,6 +5,7 @@
 @import "vendors/family";
 @import "vendors/breakpoint";
 @import "vendors/swiper";
+@import "vendors/hamburgers";
 
 // 2. Подключение базовых функций и переменных
 @import
@@ -27,6 +28,7 @@
   'layout/hero',
   'layout/materials',
   'layout/nav',
+  'layout/mobile-menu',
   'layout/callback',
   'layout/gallery',
 

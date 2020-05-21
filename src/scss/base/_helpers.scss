@@ -7,6 +7,10 @@
   max-width: $container-max-width;
   margin-left: auto;
   margin-right: auto;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    width: 95%;
+  }
 }
 
 .border-br-tl {
@@ -88,15 +92,29 @@
 
   margin-bottom: 35px;
 
+  @include breakpoint($breakpoint-mobile-large) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   &__heading {
     font-size: $font-size-3;
     font-weight: $weight-regular;
 
     margin-right: 20px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-right: 0;
+    }
   }
 
   &__additional {
     transition: all 0.15s ease;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-top: 10px;
+    }
 
     &--like {
       &::before {
@@ -104,7 +122,7 @@
         display: inline-block;
         vertical-align: middle;
 
-        margin-right: 5px;
+        margin-right: 10px;
       }
     }
   }
@@ -152,9 +170,17 @@
 
   width: 47%; // Для старых браузеров
   width: calc((100% / 2) - #{$margin});
+
+  @include breakpoint($breakpoint-mobile-large) {
+    width: 100%;
+  }
 }
 
 .row {
   display: flex;
   justify-content: space-between;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    flex-direction: column-reverse;
+  }
 }
