@@ -5,11 +5,19 @@
     justify-content: space-between;
 
     margin-bottom: 40px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column;
+    }
   }
 
   &__image {
     width: 100%;
     margin-right: 30px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-bottom: 15px;
+    }
   }
 
   &__title {
