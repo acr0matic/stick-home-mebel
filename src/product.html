@@ -216,9 +216,13 @@
           <!-- /.callback-title -->
 
           <form action="" class="callback-form">
-            <input class="input input-form border-br-tl" type="text" placeholder="Имя">
-            <input class="input input-form border-br-tl" type="text" placeholder="Номер телефона">
-            <button disabled class="button border-bl-tr" type="button">Оставить заявку</button>
+            <div class="callback-form__action">
+              <input class="input input-form border-br-tl" name="user_name" type="text" placeholder="Имя">
+              <input class="input input-form border-br-tl" name="user_phone" type="tel" placeholder="Номер телефона">
+              <button class="button button-active border-bl-tr" type="button">Оставить заявку</button>
+            </div>
+            <!-- /.callback-form__action -->
+            <span data-error-label class="form-error"></span>
           </form>
         </div>
         <!-- /.callback -->

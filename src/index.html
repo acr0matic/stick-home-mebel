@@ -148,7 +148,7 @@
           <!-- /.hero-text -->
 
           <div class="hero-action">
-            <button class="hero-action__button button button-primary border-bl-tr">Сделать заказ</button>
+            <button data-button-action="order" class="hero-action__button button button-primary border-bl-tr">Сделать заказ</button>
             <button class="hero-action__button button button-secondary border-bl-tr">Подробнее</button>
           </div>
           <!-- /.hero-action -->
@@ -297,7 +297,7 @@
               </div>
               <!-- /.manufacturing-title -->
 
-              <a href="" class="stretched-link"></a>
+              <a href="interiors.html" class="stretched-link"></a>
             </div>
             <!-- /.manufacturing-card -->
           </div>
@@ -315,7 +315,7 @@
               </div>
               <!-- /.manufacturing-title -->
 
-              <a href="" class="stretched-link"></a>
+              <a href="portfolio.html" class="stretched-link"></a>
             </div>
             <!-- /.manufacturing-card -->
           </div>
@@ -339,11 +339,11 @@
               </div>
               <!-- /.manufacturing-image -->
               <div class="photo-gallery-inner">
-                <h3 class="photo-gallery-inner__heading">Отзывы <br> наших <br> клиентов</h3>
+                <h3 class="photo-gallery-inner__heading">Как <br> сделать <br> заказ</h3>
                 <span class="photo-gallery-inner__action">Читать</span>
               </div>
               <!-- /.photo-gallery__inner -->
-              <a href="" class="stretched-link"></a>
+              <a href="order.html" class="stretched-link"></a>
             </div>
             <!-- /.manufacturing-card -->
           </div>
@@ -358,7 +358,7 @@
       <div class="container">
         <div class="section-title">
           <h2 class="section-title__heading">Материалы с которыми мы работаем</h2>
-          <a href="" class="section-title__additional">Подробнее</a>
+          <a href="materials.html" class="section-title__additional">Подробнее</a>
         </div>
         <!-- /.section-title -->
 
@@ -444,9 +444,13 @@
           <!-- /.callback-title -->
 
           <form action="" class="callback-form">
-            <input class="input input-form border-br-tl" type="text" placeholder="Имя">
-            <input class="input input-form border-br-tl" type="text" placeholder="Номер телефона">
-            <button disabled class="button border-bl-tr" type="button">Оставить заявку</button>
+            <div class="callback-form__action">
+              <input class="input input-form border-br-tl" name="user_name" type="text" placeholder="Имя">
+              <input class="input input-form border-br-tl" name="user_phone" type="tel" placeholder="Номер телефона">
+              <button class="button button-active border-bl-tr" type="button">Оставить заявку</button>
+            </div>
+            <!-- /.callback-form__action -->
+            <span data-error-label class="form-error"></span>
           </form>
         </div>
         <!-- /.callback -->

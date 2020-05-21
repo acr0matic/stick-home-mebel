@@ -47,8 +47,10 @@ function mask(event) {
 // ----------------------------------
 
 let form_callback = document.querySelector(".form-callback");
+let form_callbackBottom = document.querySelector(".callback-form");
 
-AJAXform(form_callback);
+if (form_callback) AJAXform(form_callback);
+if (form_callbackBottom) AJAXform(form_callbackBottom);
 
 function CheckForm(form) {
   let formNameInput = form.querySelector("input[name=user_name]");

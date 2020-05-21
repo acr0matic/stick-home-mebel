@@ -19,18 +19,31 @@ for (const button of callbackButtons) {
 
 window.addEventListener("click", (e) => {
   let target = e.target;
-  if (!target.closest(".callback-action") && !target.closest(".form-callback"))
+  if (!target.closest(".callback-action") && !target.closest(".form-callback") && !target.closest("[data-button-action=order"))
     callbackForm.classList.remove("form-callback--visible");
 });
 
 let modalListeners = document.querySelectorAll("[data-material]");
-for (const modal of modalListeners) {
-  modal.addEventListener("click", () => {
-    MicroModal.show("materialModal");
+
+if (modalListeners)
+  for (const modal of modalListeners) {
+    modal.addEventListener("click", () => {
+      MicroModal.show("materialModal");
+    });
+  }
+
+if (hamburger)
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("is-active");
+    mobileMenu.classList.toggle("mobile-menu--open");
+  });
+
+let actionButtons = document.querySelectorAll("[data-button-action]");
+for (const button of actionButtons) {
+  let parameter = button.getAttribute("data-button-action");
+
+  button.addEventListener("click", () => {
+    callbackForm.classList.toggle("form-callback--visible");
   });
 }
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("is-active");
-  mobileMenu.classList.toggle("mobile-menu--open");
-});

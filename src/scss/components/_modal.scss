@@ -20,7 +20,12 @@
     position: relative;
 
     width: 60%;
+    max-width: 910px;
     padding: 30px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
   }
 
   &__container {
@@ -54,6 +59,10 @@
     outline: none;
 
     cursor: pointer;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      right: 20px;
+    }
 
     &:before {
       content: "\2715";
