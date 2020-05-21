@@ -49,6 +49,10 @@
     &:after {
       content: "";
     }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 
   &__prev {
