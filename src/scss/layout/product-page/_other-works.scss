@@ -6,6 +6,7 @@
 
   margin-bottom: 30px;
 
+
   &__image-wrapper {
     $margin: 30px;
 
@@ -15,6 +16,12 @@
     width: calc((100% / 4) - #{$margin});
 
     height: 205px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 47%;
+
+      margin-bottom: 30px;
+    }
 
     &:hover {
       .other-works__image {

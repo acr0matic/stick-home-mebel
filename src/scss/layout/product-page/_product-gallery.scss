@@ -1,8 +1,17 @@
 .product {
   margin-top: 40px;
 
+  @include breakpoint($breakpoint-mobile-large) {
+    margin-top: 0;
+    padding-top: 120px;
+  }
+
   &__row {
     margin: 30px 0;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column;
+    }
   }
 
   &__title {
@@ -11,12 +20,13 @@
     line-height: $line-height-1;
 
     margin-bottom: 20px;
-  }
 
-  &__description {
-
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-top: 30px;
+    }
   }
 }
+
 .product-gallery {
   $margin: 15px;
 
@@ -40,9 +50,7 @@
   }
 
   &__secondary {
-
     width: 23%;
     width: calc((100% / 4) - #{$margin});
   }
-
 }
