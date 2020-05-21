@@ -8,6 +8,11 @@
 
   transition: border 0.3s ease;
 
+  &:-webkit-autofill {
+    border: 1px solid $input-border;
+    box-shadow: 0 0 0 1000px rgb(255, 255, 255) inset;
+  }
+
   &:focus {
     border: 1px solid $input-border-accept;
   }

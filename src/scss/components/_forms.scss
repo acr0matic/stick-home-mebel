@@ -1,4 +1,13 @@
 .form {
+  &-error {
+    display: block;
+    margin-top: 30px;
+
+    color: $input-error;
+    text-align: center;
+
+  }
+
   &-callback {
     position: absolute;
     top: 80px;

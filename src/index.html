@@ -85,8 +85,8 @@
 
       <form action="" class="form form-callback">
         <p class="form-callback__title">Перезвоните мне</p>
-        <input type="text" class="form-callback__input input border-br-tl" placeholder="Имя">
-        <input type="tel" class="form-callback__input input border-br-tl" placeholder="Телефон">
+        <input type="text" class="form-callback__input input border-br-tl" placeholder="Имя" name="user_name">
+        <input type="tel" class="form-callback__input input border-br-tl" placeholder="Телефон" name="user_phone">
         <button type="button" class="form-callback__button button button-form border-bl-tr">Отправить заявку</button>
         <div class="form-callback__policy policy">
           <label class="checkbox">
@@ -97,6 +97,7 @@
           <a href="" class="policy__label policy__label--important">&nbsp;персональных данных</a>
         </div>
         <!-- /.policy-wrapper -->
+        <span data-error-label class="form-error"></span>
       </form>
     </div>
     <!-- /.container -->
@@ -509,6 +510,7 @@
 
   <!-- Скрипты -->
   <!-- build:js -->
+  <script src="scripts/ajax-form.js"></script>
   <script src="scripts/script.js"></script>
   <!-- endbuild -->
 
