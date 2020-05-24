@@ -3,17 +3,14 @@
 // -----------------------------------------------------------------------------
 
 #header {
-  position: relative;
+  position: fixed;
   z-index: $z-index-header;
+  top: 0;
+  left: 0;
+
+  width: 100%;
 
   background-color: $palette-black;
-
-  @include breakpoint($breakpoint-mobile-large) {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
 
   .container {
     display: flex;

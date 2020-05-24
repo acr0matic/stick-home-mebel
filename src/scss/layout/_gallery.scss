@@ -1,10 +1,6 @@
 .gallery {
   margin-top: 50px;
 
-  @include breakpoint($breakpoint-mobile-large) {
-    padding-top: 80px;
-  }
-
   &-return {
     color: $text-link;
 

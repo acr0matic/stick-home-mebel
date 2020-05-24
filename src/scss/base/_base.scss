@@ -20,7 +20,7 @@ html {
   box-sizing: inherit;
 }
 
-section:not(:first-child) {
+section {
   padding-top: $section-padding;
 }
 
