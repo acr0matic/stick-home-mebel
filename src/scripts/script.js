@@ -19,7 +19,11 @@ for (const button of callbackButtons) {
 
 window.addEventListener("click", (e) => {
   let target = e.target;
-  if (!target.closest(".callback-action") && !target.closest(".form-callback") && !target.closest("[data-button-action=order"))
+  if (
+    !target.closest(".callback-action") &&
+    !target.closest(".form-callback") &&
+    !target.closest("[data-button-action=order")
+  )
     callbackForm.classList.remove("form-callback--visible");
 });
 
@@ -40,10 +44,28 @@ if (hamburger)
 
 let actionButtons = document.querySelectorAll("[data-button-action]");
 for (const button of actionButtons) {
-  let parameter = button.getAttribute("data-button-action");
 
   button.addEventListener("click", () => {
     callbackForm.classList.toggle("form-callback--visible");
   });
 }
 
+let scrollButton = document.querySelectorAll("[data-button-scroll]");
+for (const button of scrollButton) {
+  let anchor = button.getAttribute("data-button-scroll");
+
+  button.addEventListener("click", () => {
+    SmoothScroll(anchor);
+  });
+}
+
+function SmoothScroll(blockID) {
+  var section = document.getElementById(blockID.substr(1));
+
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+}
