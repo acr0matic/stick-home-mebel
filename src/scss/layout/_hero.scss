@@ -17,10 +17,10 @@
     padding: 85px;
 
     @include breakpoint($breakpoint-mobile-large) {
-      padding: 160px 0 0 0;
-      margin: 0 auto 0 auto;
 
       width: 90%;
+      margin: 0 auto 0 auto;
+      padding: 160px 0 0 0;
     }
   }
 
