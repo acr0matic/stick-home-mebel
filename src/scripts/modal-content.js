@@ -13,20 +13,22 @@ if (request.status == 200) {
 let materials = document.querySelectorAll("[data-material]");
 let materialModal = document.getElementById("materialModal");
 
-if (materials)
+if (materials) {
+  let modalContent = materialModal.querySelector(".modal__content");
+  let image = materialModal.querySelector(".modal__image");
+  let title = materialModal.querySelector(".modal__title");
+
   for (const material of materials) {
     material.addEventListener("click", () => {
-      let dataType = material.getAttribute("data-material");
-      let data = materialsData[dataType];
-
-      let modalContent = materialModal.querySelector(".modal__content");
-      let image = materialModal.querySelector(".modal__image");
-      let title = materialModal.querySelector(".modal__title");
-
+      image.src = "";
+      
       let description = modalContent.querySelectorAll("p");
       for (const item of description) {
         modalContent.removeChild(item);
       }
+
+      let dataType = material.getAttribute("data-material");
+      let data = materialsData[dataType];
 
       title.innerHTML = data.title;
       image.src = data.image;
@@ -43,5 +45,4 @@ if (materials)
       MicroModal.show("materialModal");
     });
   }
-
-
+}
