@@ -107,9 +107,12 @@
   <!-- Скрипты -->
   <!-- build:js -->
   <script src="scripts/libraries/micromodal.js"></script>
+  <script src="scripts/libraries/swiper.js"></script>
+  <script src="scripts/libraries/fslightbox.js"></script>
 
   <script src="scripts/ajax-form.js"></script>
   <script src="scripts/modal-content.js"></script>
+  <script src="scripts/slider.js"></script>
   <script src="scripts/script.js"></script>
   <!-- endbuild -->
 

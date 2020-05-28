@@ -75,6 +75,34 @@ include 'partials/header.php'?>
                   </a>
                 </div>
                 <!-- /.gallery__image -->
+
+                <div class="gallery__image">
+                  <a data-fslightbox href="img/furniture/9.jpg">
+                    <img class="image-wrapper__image border-br-tl" src="img/furniture/9_thumb.jpg" alt="">
+                  </a>
+                </div>
+                <!-- /.gallery__image -->
+
+                <div class="gallery__image">
+                  <a data-fslightbox href="img/furniture/10.jpg">
+                    <img class="image-wrapper__image border-br-tl" src="img/furniture/10_thumb.jpg" alt="">
+                  </a>
+                </div>
+                <!-- /.gallery__image -->
+
+                <div class="gallery__image">
+                  <a data-fslightbox href="img/furniture/11.jpg">
+                    <img class="image-wrapper__image border-br-tl" src="img/furniture/11_thumb.jpg" alt="">
+                  </a>
+                </div>
+                <!-- /.gallery__image -->
+
+                <div class="gallery__image">
+                  <a data-fslightbox href="img/furniture/12.jpg">
+                    <img class="image-wrapper__image border-br-tl" src="img/furniture/12_thumb.jpg" alt="">
+                  </a>
+                </div>
+                <!-- /.gallery__image -->
               </div>
               <!-- /.swiper-slide -->
             </div>

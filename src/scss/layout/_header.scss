@@ -5,10 +5,8 @@
 #header {
   position: fixed;
   z-index: $z-index-header;
-  top: 0;
-  left: 0;
 
-  width: 100%;
+  width: 100vw;
 
   background-color: $palette-black;
 

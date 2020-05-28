@@ -13,7 +13,7 @@ if (request.status == 200) {
 let materials = document.querySelectorAll("[data-material]");
 let materialModal = document.getElementById("materialModal");
 
-if (materials) {
+if (materials && materialModal) {
   let modalContent = materialModal.querySelector(".modal__content");
   let image = materialModal.querySelector(".modal__image");
   let title = materialModal.querySelector(".modal__title");
@@ -21,7 +21,7 @@ if (materials) {
   for (const material of materials) {
     material.addEventListener("click", () => {
       image.src = "";
-      
+
       let description = modalContent.querySelectorAll("p");
       for (const item of description) {
         modalContent.removeChild(item);
