@@ -23,6 +23,7 @@ function setCursorPosition(pos, elem) {
 }
 
 var len = 0;
+
 function mask(event) {
   var matrix = "+7 (___) ___ ____",
     i = 0,

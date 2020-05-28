@@ -1,4 +1,3 @@
-/* global MicroModal */
 
 let callbackButtons = document.querySelectorAll(".callback-action");
 let callbackForm = document.querySelector(".form-callback");
