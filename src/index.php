@@ -1,4 +1,10 @@
-<?php include 'partials/header.php'?>
+<?php
+// Мета-теги
+$title = "Изготавливае мебель под заказ за 14 дней";
+$description = "test";
+$keywords = "test";
+
+include 'partials/header.php'?>
 
 <!-- Основной контент -->
 <main>
@@ -145,7 +151,7 @@
             </div>
             <!-- /.manufacturing-title -->
 
-            <a href="furniture.html" class="stretched-link"></a>
+            <a href="furniture.php" class="stretched-link"></a>
           </div>
           <!-- /.manufacturing-card -->
         </div>
@@ -163,7 +169,7 @@
             </div>
             <!-- /.manufacturing-title -->
 
-            <a href="portfolio.html" class="stretched-link"></a>
+            <a href="portfolio.php" class="stretched-link"></a>
           </div>
           <!-- /.manufacturing-card -->
         </div>
@@ -191,7 +197,7 @@
               <span class="photo-gallery-inner__action">Читать</span>
             </div>
             <!-- /.photo-gallery__inner -->
-            <a href="order.html" class="stretched-link"></a>
+            <a href="order.php" class="stretched-link"></a>
           </div>
           <!-- /.manufacturing-card -->
         </div>
@@ -206,7 +212,7 @@
     <div class="container">
       <div class="section-title">
         <h2 class="section-title__heading">Материалы с которыми мы работаем</h2>
-        <a href="materials.html" class="section-title__additional">Подробнее</a>
+        <a href="materials.php" class="section-title__additional">Подробнее</a>
       </div>
       <!-- /.section-title -->
 

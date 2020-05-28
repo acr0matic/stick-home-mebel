@@ -1,4 +1,10 @@
-<?php include 'partials/header.php'?>
+<?php
+// Мета-теги
+$title = "Фурнитура, которую мы используем в работе";
+$description = "test";
+$keywords = "test";
+
+include 'partials/header.php'?>
 
 <!-- Основной контент -->
 <main>

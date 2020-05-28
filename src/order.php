@@ -1,4 +1,10 @@
-<?php include 'partials/header.php'?>
+<?php
+// Мета-теги
+$title = "Как сделать заказ? Подробная схема";
+$description = "test";
+$keywords = "test";
+
+include 'partials/header.php'?>
 
 <!-- Основной контент -->
 <main>

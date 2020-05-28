@@ -1,4 +1,10 @@
-<?php include 'partials/header.php'?>
+<?php
+// Мета-теги
+$title = "Материалы, с которыми мы работаем";
+$description = "";
+$keywords = "";
+
+include 'partials/header.php'?>
 
 <!-- Основной контент -->
 <main>
