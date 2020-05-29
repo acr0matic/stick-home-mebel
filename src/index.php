@@ -31,7 +31,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="" class="stretched-link"></a>
+          <a href="portfolio.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -46,7 +46,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="" class="stretched-link"></a>
+          <a href="portfolio.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -61,7 +61,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="" class="stretched-link"></a>
+          <a href="portfolio.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -76,7 +76,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="" class="stretched-link"></a>
+          <a href="portfolio.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -91,7 +91,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="" class="stretched-link"></a>
+          <a href="portfolio.php" class="stretched-link"></a>
 
         </div>
         <!-- /.manufacturing-card -->
@@ -107,7 +107,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="" class="stretched-link"></a>
+          <a href="portfolio.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
       </div>

@@ -112,6 +112,7 @@
 
   <script src="scripts/ajax-form.js"></script>
   <script src="scripts/modal-content.js"></script>
+  <script src="scripts/product-gallery.js"></script>
   <script src="scripts/gallery-filter.js"></script>
   <script src="scripts/slider.js"></script>
   <script src="scripts/script.js"></script>

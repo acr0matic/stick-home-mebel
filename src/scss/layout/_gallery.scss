@@ -5,7 +5,7 @@
     color: $text-link;
 
     &::before {
-      content: url("../img/icons/arrow-back.png");
+      content: url('../img/icons/arrow-back.png');
       vertical-align: middle;
 
       margin-right: 10px;
@@ -41,15 +41,19 @@
     width: calc((100% / 4) - #{$margin});
     height: 205px;
 
+    margin-right: $margin + 5;
     margin-bottom: $margin;
+
+    @include each(4) {
+      margin-right: 0;
+    }
 
     @include breakpoint($breakpoint-mobile-large) {
       width: 46%;
-
       height: 150px;
+      
+      margin-right: 0;
     }
-
-
 
     &:hover {
       img {

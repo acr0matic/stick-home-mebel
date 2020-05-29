@@ -47,10 +47,22 @@
 
   &__primary {
     margin-bottom: $margin;
+    height: 420px;
   }
 
   &__secondary {
     width: 23%;
     width: calc((100% / 4) - #{$margin});
+
+    &--active {
+      .product-gallery__image {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  &__image {
+    transition: all 0.15s ease;
+    cursor: pointer;
   }
 }

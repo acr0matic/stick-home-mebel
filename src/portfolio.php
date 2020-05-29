@@ -52,7 +52,6 @@ include 'partials/header.php'?>
                 <div data-filter="coffee" class="gallery__image image-wrapper border-br-tl">
                   <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
-                  <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 

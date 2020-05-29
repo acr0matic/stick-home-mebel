@@ -1,6 +1,6 @@
 <?php
 // Мета-теги
-$title = "test";
+$title = "Название работы в две или одну строчки";
 $description = "test";
 $keywords = "test";
 
@@ -16,38 +16,30 @@ include 'partials/header.php'?>
           <div class="column">
             <div class="product__gallery product-gallery">
               <div class="product-gallery__primary image-wrapper border-br-tl">
-                <a data-fslightbox href="img/portfolio/item/1.jpg">
-                  <img src="img/portfolio/item/1_thumb.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                <a data-fslightbox href="/img/portfolio/item/1.jpg">
+                  <img src="img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </a>
               </div>
               <!-- /.work-gallery__main -->
 
               <div class="product-gallery__row">
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <a data-fslightbox href="img/portfolio/item/2.jpg">
-                    <img src="img/portfolio/item/2_thumb.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
-                  </a>
+                  <img src="img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <a data-fslightbox href="img/portfolio/item/3.jpg">
-                    <img src="img/portfolio/item/3_thumb.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
-                  </a>
+                  <img src="img/portfolio/item/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <a data-fslightbox href="img/portfolio/item/4.jpg">
-                    <img src="img/portfolio/item/4_thumb.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
-                  </a>
+                  <img src="img/portfolio/item/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <a data-fslightbox href="img/portfolio/item/5.jpg">
-                    <img src="img/portfolio/item/5_thumb.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
-                  </a>
+                  <img src="img/portfolio/item/4.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
               </div>
@@ -58,7 +50,7 @@ include 'partials/header.php'?>
           <!-- /.column -->
 
           <div class="column">
-            <h1 class="product__title">Далеко-далеко за словесными горами, в стране гласных.</h1>
+            <h1 class="product__title"><?php echo $title ?></h1>
             <p class="product__description paragraph">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек лучше себя пунктуация напоивший, бросил что? Страна переписали дал заголовок они, дороге всемогущая.</p>
             <p class="product__description paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Журчит, переписывается рыбного которой даже lorem буквоград строчка злых свою своих имени вершину рот. Текста проектах агентство имеет все моей рыбными.
               Там пор повстречался ее пунктуация несколько деревни предупредила буквоград злых. Ты там использовало рыбного путь заглавных переулка, текста домах?</p>
