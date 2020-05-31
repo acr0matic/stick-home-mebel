@@ -11,7 +11,7 @@ include 'partials/header.php'?>
   <section id="product">
     <div class="container">
       <div class="product">
-        <a href="portfolio.html" class="product__return gallery-return">Вернуться к галерее</a>
+        <a href="portfolio.php" class="product__return gallery-return">Вернуться к галерее</a>
         <div class="product__row row">
           <div class="column">
             <div class="product__gallery product-gallery">
@@ -21,9 +21,22 @@ include 'partials/header.php'?>
                 </a>
               </div>
               <!-- /.work-gallery__main -->
+            </div>
+            <!-- /.work-gallery -->
+          </div>
+          <!-- /.column -->
 
-              <div class="product-gallery__row">
-                <div class="product-gallery__secondary image-wrapper border-br-tl">
+          <div class="column">
+            <div class="product-text">
+              <h1 class="product-text__title"><?php echo $title ?></h1>
+              <p class="product-text__description paragraph">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек лучше себя пунктуация напоивший, бросил что? Страна переписали дал заголовок они, дороге всемогущая.</p>
+            </div>
+            <!-- /.product-text -->
+
+            <div class="product-photo">
+              <h2 class="product-photo__title">Другие фотографии</h2>
+              <div class="product-photo__content product-gallery__row">
+                <div class="product-gallery__secondary product-gallery__secondary--active image-wrapper border-br-tl">
                   <img src="img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
@@ -45,16 +58,8 @@ include 'partials/header.php'?>
               </div>
               <!-- /.work-gallery__row -->
             </div>
-            <!-- /.work-gallery -->
-          </div>
-          <!-- /.column -->
+            <!-- /.product-photo -->
 
-          <div class="column">
-            <h1 class="product__title"><?php echo $title ?></h1>
-            <p class="product__description paragraph">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек лучше себя пунктуация напоивший, бросил что? Страна переписали дал заголовок они, дороге всемогущая.</p>
-            <p class="product__description paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Журчит, переписывается рыбного которой даже lorem буквоград строчка злых свою своих имени вершину рот. Текста проектах агентство имеет все моей рыбными.
-              Там пор повстречался ее пунктуация несколько деревни предупредила буквоград злых. Ты там использовало рыбного путь заглавных переулка, текста домах?</p>
-            <p class="product__description paragraph">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек лучше себя пунктуация напоивший, бросил что? Страна переписали дал заголовок они, дороге всемогущая.</p>
           </div>
           <!-- /.column -->
         </div>

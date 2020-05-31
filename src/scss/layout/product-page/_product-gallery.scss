@@ -1,10 +1,5 @@
 .product {
-  margin-top: 40px;
-
-  @include breakpoint($breakpoint-mobile-large) {
-    margin-top: 0;
-    padding-top: 120px;
-  }
+  margin-top: 60px;
 
   &__row {
     margin: 30px 0;
@@ -14,6 +9,18 @@
     }
   }
 
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.product-text {
   &__title {
     font-size: $font-size-3;
     font-weight: $weight-medium;
@@ -27,6 +34,19 @@
   }
 }
 
+.product-photo {
+  &__title {
+    font-size: $font-size-4;
+    font-weight: $weight-regular;
+    line-height: $line-height-1;
+    margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
+  }
+}
+
 .product-gallery {
   $margin: 15px;
 
@@ -34,6 +54,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-top: 20px;
+    }
   }
 
   &__primary,
@@ -46,7 +70,6 @@
   }
 
   &__primary {
-    margin-bottom: $margin;
     height: 420px;
   }
 
