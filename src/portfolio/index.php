@@ -26,74 +26,74 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
             <div class="swiper-wrapper gallery-slider__wrapper">
               <div class="swiper-slide gallery-slider__slide">
                 <div data-filter="" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_1.jpg" alt="">
+                  <a href="kitchen_1.php" class="stretched-link"></a>
+                </div>
+                <!-- /.gallery__image -->
+
+                <div data-filter="bathroom" class="gallery__image image-wrapper border-br-tl">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="bathroom" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="bathroom" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="kitchen" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="coffee" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="bed" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="bed" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="bed" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="closet" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="wardbore" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
                 <div data-filter="" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="img/portfolio/portfolio-item.jpg" alt="">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
                   <a href="" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->

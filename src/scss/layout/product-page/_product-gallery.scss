@@ -82,6 +82,10 @@
         opacity: 0.3;
       }
     }
+
+    .product-gallery__image {
+      max-height: 90px;
+    }
   }
 
   &__image {
