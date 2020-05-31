@@ -38,8 +38,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
                 <!-- /.gallery__image -->
 
                 <div data-filter="bathroom" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/bathroom_1.jpg" alt="">
+                  <a href="bathroom_1.php" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
