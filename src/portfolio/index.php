@@ -3,7 +3,7 @@ $title = "Наши выполенные работы";
 $description = "test";
 $keywords = "test";
 
-include 'partials/header.php'?>
+include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
 
 <!-- Основной контент -->
 <main>
@@ -118,4 +118,4 @@ include 'partials/header.php'?>
 </main>
 
 <!-- Подвал -->
-<?php include 'partials/footer.php'?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'?>

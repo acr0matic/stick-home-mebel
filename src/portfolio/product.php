@@ -4,20 +4,20 @@ $title = "Название работы в две или одну строчки
 $description = "test";
 $keywords = "test";
 
-include 'partials/header.php'?>
+include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
 
 <!-- Основной контент -->
 <main>
   <section id="product">
     <div class="container">
       <div class="product">
-        <a href="portfolio.php" class="product__return gallery-return">Вернуться к галерее</a>
+        <a href="portfolio.php" class="product__return gallery-return">Вернуться в галерею</a>
         <div class="product__row row">
           <div class="column">
             <div class="product__gallery product-gallery">
               <div class="product-gallery__primary image-wrapper border-br-tl">
-                <a data-fslightbox href="/img/portfolio/item/1.jpg">
-                  <img src="img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/item/1.jpg">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </a>
               </div>
               <!-- /.work-gallery__main -->
@@ -37,36 +37,34 @@ include 'partials/header.php'?>
               <h2 class="product-photo__title">Другие фотографии</h2>
               <div class="product-photo__content product-gallery__row">
                 <div class="product-gallery__secondary product-gallery__secondary--active image-wrapper border-br-tl">
-                  <img src="img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/item/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="img/portfolio/item/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/item/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="img/portfolio/item/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/item/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="img/portfolio/item/4.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/item/4.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
               </div>
               <!-- /.work-gallery__row -->
             </div>
             <!-- /.product-photo -->
-
           </div>
           <!-- /.column -->
         </div>
         <!-- /.row -->
       </div>
       <!-- /.product -->
-
     </div>
     <!-- /.container -->
   </section>
@@ -103,25 +101,25 @@ include 'partials/header.php'?>
 
       <div class="other-works">
         <div class="other-works__image-wrapper image-wrapper border-br-tl">
-          <img src="img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
+          <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
           <a href="" class="stretched-link"></a>
         </div>
         <!-- /.image-wrapper -->
 
         <div class="other-works__image-wrapper image-wrapper border-br-tl">
-          <img src="img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
+          <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
           <a href="" class="stretched-link"></a>
         </div>
         <!-- /.image-wrapper -->
 
         <div class="other-works__image-wrapper image-wrapper border-br-tl">
-          <img src="img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
+          <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
           <a href="" class="stretched-link"></a>
         </div>
         <!-- /.image-wrapper -->
 
         <div class="other-works__image-wrapper image-wrapper border-br-tl">
-          <img src="img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
+          <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="" class="other-works__image image-wrapper__image border-br-tl">
           <a href="" class="stretched-link"></a>
         </div>
         <!-- /.image-wrapper -->
@@ -132,4 +130,4 @@ include 'partials/header.php'?>
   </section>
 </main>
 
-<?php include 'partials/footer.php'?>
+<?php  include $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'?>

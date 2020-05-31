@@ -50,7 +50,7 @@
 
   <!-- Стили -->
   <!-- build:css -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT']?> /css/style.css" />
   <!-- endbuild -->
 </head>
 
@@ -58,14 +58,14 @@
   <!-- Шапка -->
   <header id="header">
     <div class="container">
-      <img id="parallax" class="logo" src="img/logo.svg" alt="Логотип">
+      <img id="parallax" class="logo" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/logo.svg" alt="Логотип">
 
       <nav class="nav">
         <ul class="nav__navbar">
-          <li class="nav__item"><a href="index.php" class="nav__link">Главная</a></li>
-          <li class="nav__item"><a href="portfolio.php" class="nav__link">Наши работы</a></li>
-          <li class="nav__item"><a href="materials.php" class="nav__link">С чем работаем</a></li>
-          <li class="nav__item"><a href="order.php" class="nav__link">Схема заказа</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/index.php" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/portfolio/index.php" class="nav__link">Наши работы</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/materials.php" class="nav__link">С чем работаем</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/order.php" class="nav__link">Схема заказа</a></li>
         </ul>
       </nav>
 
@@ -112,10 +112,10 @@
 
   <div id="mobile-menu" class="mobile-menu mobile-menu--slide">
     <ul class="mobile-menu__navbar">
-      <li class="mobile-menu__item"><a href="index.php" class="mobile-menu__link">Главная</a></li>
-      <li class="mobile-menu__item"><a href="portfolio.php" class="mobile-menu__link">Наши работы</a></li>
-      <li class="mobile-menu__item"><a href="materials.php" class="mobile-menu__link">С чем работаем</a></li>
-      <li class="mobile-menu__item"><a href="order.php" class="mobile-menu__link">Схема заказа</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/index.php" class="mobile-menu__link">Главная</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/portfolio/index.php" class="mobile-menu__link">Наши работы</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/materials.php" class="mobile-menu__link">С чем работаем</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/order.php" class="mobile-menu__link">Схема заказа</a></li>
     </ul>
 
     <div class="callback">

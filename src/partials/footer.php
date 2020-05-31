@@ -4,7 +4,7 @@
       <div class="footer-main-row row">
         <div class="column">
           <div class="footer-row row">
-            <img class="logo" src="img/logo.svg" alt="Логотип">
+            <img class="logo" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/logo.svg" alt="Логотип">
             <div class="social">
               <a href="">
                 <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="29.531" height="29.54" viewBox="0 0 29.531 29.54">
@@ -52,10 +52,10 @@
             <div class="footer-row row">
               <nav class="nav">
                 <ul class="nav__navbar">
-                  <li class="nav__item"><a href="" class="nav__link">Интерьеры</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">Наши работы</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+                  <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/index.php" class="nav__link">Главная</a></li>
+                  <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/portfolio/index.php" class="nav__link">Наши работы</a></li>
+                  <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/materials.php" class="nav__link">С чем работаем</a></li>
+                  <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/order.php" class="nav__link">Схема заказа</a></li>
                 </ul>
               </nav>
             </div>
@@ -87,15 +87,13 @@
           <div class="footer-row row payment">
             <span class="payment__text">Мы принимаем к оплате банковские карты:</span>
             <div class="payment__icons">
-              <img class="payment__icon" src="img/icons/visa.svg" alt="">
-              <img class="payment__icon" src="img/icons/mastercard.svg" alt="">
-              <img class="payment__icon" src="img/icons/maestrocard.svg" alt="">
+              <img class="payment__icon" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/icons/visa.svg" alt="">
+              <img class="payment__icon" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/icons/mastercard.svg" alt="">
+              <img class="payment__icon" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/icons/maestrocard.svg" alt="">
             </div>
             <!-- /.payment -->
           </div>
           <!-- /.row -->
-
-
         </div>
         <!-- /.column -->
       </div>
@@ -106,16 +104,16 @@
 
   <!-- Скрипты -->
   <!-- build:js -->
-  <script src="scripts/libraries/micromodal.js"></script>
-  <script src="scripts/libraries/swiper.js"></script>
-  <script src="scripts/libraries/fslightbox.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/libraries/micromodal.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/libraries/swiper.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/libraries/fslightbox.js"></script>
 
-  <script src="scripts/ajax-form.js"></script>
-  <script src="scripts/modal-content.js"></script>
-  <script src="scripts/product-gallery.js"></script>
-  <script src="scripts/gallery-filter.js"></script>
-  <script src="scripts/slider.js"></script>
-  <script src="scripts/script.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/ajax-form.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/modal-content.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/product-gallery.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/gallery-filter.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/slider.js"></script>
+  <script src="<?php $_SERVER['DOCUMENT_ROOT']?>/scripts/script.js"></script>
   <!-- endbuild -->
 
   <!-- Yandex.Metrika counter -->
