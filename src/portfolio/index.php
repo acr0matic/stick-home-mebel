@@ -11,13 +11,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
     <div class="container">
       <div class="gallery">
         <div class="gallery__filters">
-          <button data-filter-type="all" class="button button-secondary button-gallery button-active border-br-tl">Все <span class="button-gallery__number">658</span></button>
-          <button data-filter-type="bathroom" class="button button-secondary button-gallery border-br-tl">Мебель в ванную <span class="button-gallery__number">243</span></button>
-          <button data-filter-type="kitchen" class="button button-secondary button-gallery border-br-tl">Кухни <span class="button-gallery__number">432</span></button>
-          <button data-filter-type="closet" class="button button-secondary button-gallery border-br-tl">Шкафы-купе <span class="button-gallery__number">32</span></button>
-          <button data-filter-type="bed" class="button button-secondary button-gallery border-br-tl">Кровати <span class="button-gallery__number">554</span></button>
-          <button data-filter-type="wardbore" class="button button-secondary button-gallery border-br-tl">Гардеробы <span class="button-gallery__number">54</span></button>
-          <button data-filter-type="coffee" class="button button-secondary button-gallery border-br-tl">Кофейни <span class="button-gallery__number">3</span></button>
+          <button data-filter-type="all" class="button button-secondary button-gallery button-active border-br-tl">Все <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="bathroom" class="button button-secondary button-gallery border-br-tl">Мебель в ванную <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="kitchen" class="button button-secondary button-gallery border-br-tl">Кухни <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="closet" class="button button-secondary button-gallery border-br-tl">Шкафы-купе <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="bed" class="button button-secondary button-gallery border-br-tl">Кровати <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="wardbore" class="button button-secondary button-gallery border-br-tl">Гардеробы <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="coffee" class="button button-secondary button-gallery border-br-tl">Кофейни <span class="button-gallery__number">0</span></button>
         </div>
         <!-- /.gallery__filters -->
 
@@ -49,52 +49,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
                 </div>
                 <!-- /.gallery__image -->
 
-                <div data-filter="coffee" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="bed" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="bed" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="bed" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
                 <div data-filter="closet" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="wardbore" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
-                </div>
-                <!-- /.gallery__image -->
-
-                <div data-filter="" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/closet_1.jpg" alt="">
+                  <a href="closet_1.php" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
               </div>

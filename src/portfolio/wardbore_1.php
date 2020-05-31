@@ -16,7 +16,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
           <div class="column">
             <div class="product__gallery product-gallery">
               <div class="product-gallery__primary image-wrapper border-br-tl">
-                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_1/1.jpg">
+                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/1.jpg">
                   <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </a>
               </div>
