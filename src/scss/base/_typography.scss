@@ -24,6 +24,10 @@ a {
   }
 }
 
+strong {
+  font-weight: $weight-medium;
+}
+
 .paragraph {
   line-height: $line-height-0;
   color: $text-black;
