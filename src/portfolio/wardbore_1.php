@@ -1,8 +1,8 @@
 <?php
 // Мета-теги
-$title = "Встроенная тумба в ванную комнату";
-$description = "Фасад данной тумбы выполнен из пластиковой 'Арпы'. Красивый глянец покрашен в темные цвета для большей контрастности цветов. Столешница же выполнена из искусственого камня.";
-$keywords = "Мебель в ванную, искусственный камень, Арпа, пластик, на заказ, москва и область";
+$title = "Белый современный гардероб в прихожую";
+$description = "Для фасада данного гардероба были использованы пленка ПВХ и МДФ. Для светлой прихожей был выбран не менее светлый цвет и для гардероба. Фурнитура использована от компании Blum.";
+$keywords = "Гардерод, белый, в прихожую, ПВХ, МДФ, на заказ, москва и область";
 
 include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
 
@@ -16,8 +16,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
           <div class="column">
             <div class="product__gallery product-gallery">
               <div class="product-gallery__primary image-wrapper border-br-tl">
-                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/1.jpg">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/bathroom_1/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_1/1.jpg">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </a>
               </div>
               <!-- /.work-gallery__main -->
@@ -29,7 +29,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
           <div class="column">
             <div class="product-text">
               <h1 class="product-text__title"><?php echo $title ?></h1>
-              <p class="product-text__description paragraph">Фасад данной тумбы выполнен из <strong>пластиковой "Арпы"</strong>. Красивый глянец покрашен в темные цвета для большей контрастности цветов. Столешница же выполнена из <strong>искусственого камня</strong>.</p>
+              <p class="product-text__description paragraph">Для фасада данного гардероба были использованы <strong>пленка ПВХ</strong> и <strong>МДФ</strong>. Для светлой прихожей был выбран не менее светлый цвет и для гардероба. Фурнитура использована от компании <strong>Blum</strong>.</p>
             </div>
             <!-- /.product-text -->
 
@@ -37,17 +37,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
               <h2 class="product-photo__title">Другие фотографии</h2>
               <div class="product-photo__content product-gallery__row">
                 <div class="product-gallery__secondary product-gallery__secondary--active image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/bathroom_1/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/bathroom_1/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/bathroom_1/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                </div>
+                <!-- /.work-gallery__secondary -->
+
+                <div class="product-gallery__secondary image-wrapper border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1/4.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
               </div>

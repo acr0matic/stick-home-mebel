@@ -43,9 +43,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
                 </div>
                 <!-- /.gallery__image -->
 
-                <div data-filter="kitchen" class="gallery__image image-wrapper border-br-tl">
-                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/portfolio-item.jpg" alt="">
-                  <a href="" class="stretched-link"></a>
+                <div data-filter="wardbore" class="gallery__image image-wrapper border-br-tl">
+                  <img class="image-wrapper__image border-br-tl" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_1.jpg" alt="">
+                  <a href="wardbore_1.php" class="stretched-link"></a>
                 </div>
                 <!-- /.gallery__image -->
 
