@@ -1,8 +1,8 @@
 <?php
 // Мета-теги
-$title = "Светлая кухня со столешницей из искусственного камня";
-$description = "В верхней части в качестве фасада использован матовый Алвик. В нижней - клиф. Столещница сделана из искусственного камня. Фурнитура использована от компании Blum. Стеновая панель кухни - фотопечать.";
-$keywords = "Кухня, белая, пленка ПВХ, пластик, на заказ, москва и область";
+$title = "Белый гардероб со встроенной гладильной доской";
+$description = "Для фасада и наполненения данного гардероба использовался ЛДСП. Встроенная гладильная доска обеспечивает удобство и компактность. Фурнитура использована от компании Blum.";
+$keywords = "Гардерод, белый, встроенная гладильная доска, ЛДСП, на заказ, москва и область";
 
 include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
 
@@ -16,8 +16,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
           <div class="column">
             <div class="product__gallery product-gallery">
               <div class="product-gallery__primary image-wrapper border-br-tl">
-                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/1.jpg">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                <a data-fslightbox href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_2/1.jpg">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_2/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </a>
               </div>
               <!-- /.work-gallery__main -->
@@ -29,7 +29,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
           <div class="column">
             <div class="product-text">
               <h1 class="product-text__title"><?php echo $title ?></h1>
-              <p class="product-text__description paragraph">В верхней части в качестве фасада использован <strong>матовый Алвик</strong>. В нижней - <strong>клиф</strong>. Столещница сделана из <strong>искусственного камня</strong>. Фурнитура использована от компании <strong>Blum</strong>. Стеновая панель кухни - <strong>фотопечать</strong>.</p>
+              <p class="product-text__description paragraph">Для фасада и наполненения данного гардероба использовался <strong>ЛДСП</strong>. Встроенная гладильная доска обеспечивает удобство и компактность. Фурнитура использована от компании <strong>Blum</strong>.</p>
             </div>
             <!-- /.product-text -->
 
@@ -37,22 +37,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
               <h2 class="product-photo__title">Другие фотографии</h2>
               <div class="product-photo__content product-gallery__row">
                 <div class="product-gallery__secondary product-gallery__secondary--active image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_2/1.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_2/2.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_2/3.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
 
                 <div class="product-gallery__secondary image-wrapper border-br-tl">
-                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/kitchen_2/4.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
+                  <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/portfolio/wardbore_2/4.jpg" alt="" class="product-gallery__image image-wrapper__image border-br-tl">
                 </div>
                 <!-- /.work-gallery__secondary -->
               </div>

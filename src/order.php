@@ -4,12 +4,12 @@ $title = "Как сделать заказ? Подробная схема";
 $description = "test";
 $keywords = "test";
 
-include 'partials/header.php'?>
+include 'partials/header.php' ?>
 
 <!-- Основной контент -->
 <main>
 
-  <?php include 'partials/hero.php'?>
+  <?php include 'partials/hero.php' ?>
 
   <section id="communication" class="communication">
     <div class="container">
@@ -43,31 +43,26 @@ include 'partials/header.php'?>
           <p class="communication-method__description paragraph">Просто позвоните по нашему номеру и менеджер
             примет Ваш заказ, а так же проконсультирует по любым вопросам: по доставке, оплате и самому
             заказу.</p>
-          <a class="communication-method__phone" href="tel:"><button
-                    class="button button-secondary button-communication border-bl-tr">Позвонить
+          <a class="communication-method__phone" href="tel:"><button class="button button-secondary button-communication border-bl-tr">Позвонить
               самому</button></a>
         </div>
         <!-- /.communication-method -->
 
         <div class="communication-method">
-          <img class="communication-method__image border-br-tl" src="img/pages/communication/callback.jpg"
-               alt="">
+          <img class="communication-method__image border-br-tl" src="img/pages/communication/callback.jpg" alt="">
           <p class="communication-method__description paragraph">Если у вас по какой-либо причине не
             получается дозвониться нам по телефону, либо у вас нет времени, то вы можете воспользоваться
             услугой "Заказать обратный звонок".</p>
-          <button data-button-action="order"
-                  class="button button-secondary button-communication border-bl-tr">Обратный звонок</button>
+          <button data-button-action="order" class="button button-secondary button-communication border-bl-tr">Обратный звонок</button>
         </div>
         <!-- /.communication-method -->
 
         <div class="communication-method">
-          <img class="communication-method__image border-br-tl" src="img/pages/communication/order.jpg"
-               alt="">
+          <img class="communication-method__image border-br-tl" src="img/pages/communication/order.jpg" alt="">
           <p class="communication-method__description paragraph">Заказать у нас мебель совсем не сложно - для
             этого нужно проделать всего лишь несколько простых шагов. Подробнее ознакомиться с ними вы
             можете ниже.</p>
-          <button data-button-scroll="#order-scheme"
-                  class="button button-secondary button-communication border-bl-tr">Подробнее про заказ</button>
+          <button data-button-scroll="#order-scheme" class="button button-secondary button-communication border-bl-tr">Подробнее про заказ</button>
         </div>
         <!-- /.communication-method -->
       </div>
@@ -128,8 +123,7 @@ include 'partials/header.php'?>
           <div class="order-list__content">
             <h3 class="order-list__title">Начинаем изготовление вашего заказа</h3>
             <p class="order-list__description paragraph">Стандартное время изготовления мебели в нашей фирме
-              — от 14 рабочих дней, в зависимости от сложности изделия и загруженности производства. Если
-              заказ предполагает монтаж мебели, то срок может увеличиться на 2-3 дня.</p>
+              — от 7 до 14 рабочих дней, в зависимости от сложности изделия и загруженности производства.</p>
           </div>
           <!-- /.order-list__content -->
         </li>
@@ -141,7 +135,7 @@ include 'partials/header.php'?>
             <h3 class="order-list__title">Доставка, установка и гарантия</h3>
             <p class="order-list__description paragraph">Доставка и монтаж мебели включаются в сумму заказа.
               Цену доставки за пределы города и в другие города, уточняйте у менеджеров нашего салона.</p>
-            <p class="order-list__description paragraph">На все наши изделия мы предоставляем гарантию в 12
+            <p class="order-list__description paragraph">На все наши изделия мы предоставляем гарантию в 24
               месяцев с момента поставки. Если в течение этого срока возникнут проблемы с эксплуатацией
               изделия, мы окажем полную сервисную поддержку.</p>
           </div>
@@ -156,4 +150,4 @@ include 'partials/header.php'?>
 
 </main>
 
-<?php include 'partials/footer.php'?>
+<?php include 'partials/footer.php' ?>

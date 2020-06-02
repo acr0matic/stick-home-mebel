@@ -1,15 +1,15 @@
 <?php
 // Мета-теги
-$title = "Изготавливае мебель под заказ за 14 дней";
+$title = "Изготавливаем мебель под заказ за 14 дней";
 $description = "test";
 $keywords = "test";
 
-include 'partials/header.php'?>
+include 'partials/header.php' ?>
 
 <!-- Основной контент -->
 <main>
 
-  <?php include 'partials/hero.php'?>
+  <?php include 'partials/hero.php' ?>
 
   <section id="manufacturing">
     <div class="container">
@@ -31,7 +31,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="portfolio.php" class="stretched-link"></a>
+          <a href="portfolio/index.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -46,7 +46,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="portfolio.php" class="stretched-link"></a>
+          <a href="portfolio/index.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -61,7 +61,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="portfolio.php" class="stretched-link"></a>
+          <a href="portfolio/index.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -76,7 +76,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="portfolio.php" class="stretched-link"></a>
+          <a href="portfolio/index.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
 
@@ -91,7 +91,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="portfolio.php" class="stretched-link"></a>
+          <a href="portfolio/index.php" class="stretched-link"></a>
 
         </div>
         <!-- /.manufacturing-card -->
@@ -107,7 +107,7 @@ include 'partials/header.php'?>
           </div>
           <!-- /.manufacturing-title -->
 
-          <a href="portfolio.php" class="stretched-link"></a>
+          <a href="portfolio/index.php" class="stretched-link"></a>
         </div>
         <!-- /.manufacturing-card -->
       </div>
@@ -169,7 +169,7 @@ include 'partials/header.php'?>
             </div>
             <!-- /.manufacturing-title -->
 
-            <a href="portfolio.php" class="stretched-link"></a>
+            <a href="portfolio/index.php" class="stretched-link"></a>
           </div>
           <!-- /.manufacturing-card -->
         </div>
@@ -313,4 +313,4 @@ include 'partials/header.php'?>
   </section>
 </main>
 
-<?php include 'partials/footer.php'?>
+<?php include 'partials/footer.php' ?>

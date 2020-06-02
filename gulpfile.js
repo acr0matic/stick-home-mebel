@@ -55,8 +55,8 @@ var config = {
   js_out_compiled_name: "script.compiled.js",
   js_out_min_name: "script.min.js",
 
-  css_replace_out: "css/style.min.css",
-  js_replace_out: "js/script.min.js",
+  css_replace_out: "<link rel='stylesheet' href='<?php $_SERVER['DOCUMENT_ROOT']?>/css/style.min.css' />",
+  js_replace_out: "<script src='<?php $_SERVER['DOCUMENT_ROOT']?>/js/script.min.js'></script>",
 };
 
 // Массив путей до других файлов
@@ -124,7 +124,7 @@ gulp.task("scss", function () {
     .pipe(rename(config.css_out_name))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest(config.compiled_ccs_out))
-    .pipe(browserSync.stream({match: '**/*.css'}));
+    .pipe(browserSync.stream({ match: '**/*.css' }));
 });
 
 // Задача для проставления вендорных префиксов в стилях

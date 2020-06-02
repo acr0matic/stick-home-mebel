@@ -4,12 +4,12 @@ $title = "Материалы, с которыми мы работаем";
 $description = "";
 $keywords = "";
 
-include 'partials/header.php'?>
+include 'partials/header.php' ?>
 
 <!-- Основной контент -->
 <main>
 
-  <?php include 'partials/hero.php'?>
+  <?php include 'partials/hero.php' ?>
 
   <section id="materials">
     <div class="container">
@@ -131,4 +131,4 @@ include 'partials/header.php'?>
   <!-- /.modal__overlay -->
 </div>
 
-<?php include 'partials/footer.php'?>
+<?php include 'partials/footer.php' ?>

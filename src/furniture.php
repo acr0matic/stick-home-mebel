@@ -4,7 +4,7 @@ $title = "Фурнитура, которую мы используем в раб
 $description = "test";
 $keywords = "test";
 
-include 'partials/header.php'?>
+include 'partials/header.php' ?>
 
 <!-- Основной контент -->
 <main>
@@ -122,4 +122,4 @@ include 'partials/header.php'?>
   </section>
 </main>
 
-<?php include 'partials/footer.php'?>
+<?php include 'partials/footer.php' ?>

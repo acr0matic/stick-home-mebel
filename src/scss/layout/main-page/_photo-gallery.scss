@@ -20,6 +20,10 @@
         color: lighten($text-green, $amount: 10);
       }
     }
+
+    .image-wrapper {
+      height: 315px;
+    }
   }
 
   &-title {
