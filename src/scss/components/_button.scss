@@ -6,11 +6,17 @@
   width: 225px;
   height: 60px;
 
+  padding: 0;
+
   outline: none;
   border: none;
   cursor: pointer;
 
-  transition: all 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease;
+
+  &__loader {
+    margin-right: 10px;
+  }
 
   &-primary {
     color: $text-white;
@@ -66,6 +72,10 @@
     color: $text-white;
 
     cursor: default;
+
+    &:hover {
+      background-color: $button-disabled;
+    }
   }
 
   &-active {

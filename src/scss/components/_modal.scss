@@ -76,6 +76,11 @@
     object-fit: cover;
   }
 
+  &__icon {
+    width: 54px;
+    margin-right: 20px;
+  }
+
   &__content {
     max-height: 350px;
     overflow: auto;
@@ -87,6 +92,24 @@
 
       padding: 20px 20px 10px 20px;
     }
+  }
+
+  &__important {
+    font-size: $font-size-7;
+    color: $text-green;
+    font-weight: $weight-medium;
+  }
+}
+
+.modal-accept {
+  &__wrapper {
+    max-width: 540px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

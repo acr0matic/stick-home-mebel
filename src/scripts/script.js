@@ -1,6 +1,9 @@
+/* globa MicroModal */
 
 let callbackButtons = document.querySelectorAll(".callback-action");
 let callbackForm = document.querySelector(".form-callback");
+let callbackPolicy = callbackForm.querySelector(".policy .checkbox");
+let callbackAccept = callbackForm.querySelector(".button");
 
 let hamburger = document.querySelector(".hamburger");
 let mobileMenu = document.querySelector(".mobile-menu");
@@ -25,6 +28,10 @@ window.addEventListener("click", (e) => {
   )
     callbackForm.classList.remove("form-callback--visible");
 });
+
+callbackPolicy.addEventListener("change", () => {
+  callbackAccept.toggleAttribute("disabled");
+})
 
 let modalListeners = document.querySelectorAll("[data-material]");
 

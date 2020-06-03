@@ -87,29 +87,8 @@ include 'partials/header.php' ?>
     <!-- /.container -->
   </section>
 
-  <section id="callback">
-    <div class="container">
-      <div class="callback">
-        <div class="callback-title">
-          <h2 class="callback-title__heading">У вас возник какой-то вопрос?</h2>
-          <span class="callback-title__text">Поможем Вам определиться с заказом</span>
-        </div>
-        <!-- /.callback-title -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/partials/callback.php'?>
 
-        <form action="" class="callback-form">
-          <div class="callback-form__action">
-            <input class="input input-form border-br-tl" name="user_name" type="text" placeholder="Имя">
-            <input class="input input-form border-br-tl" name="user_phone" type="tel" placeholder="Номер телефона">
-            <button class="button button-active border-bl-tr" type="button">Оставить заявку</button>
-          </div>
-          <!-- /.callback-form__action -->
-          <span data-error-label class="form-error"></span>
-        </form>
-      </div>
-      <!-- /.callback -->
-    </div>
-    <!-- /.container -->
-  </section>
 </main>
 
 <div class="modal micromodal-slide" id="materialModal" aria-hidden="true">

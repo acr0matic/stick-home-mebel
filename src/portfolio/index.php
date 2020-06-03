@@ -12,12 +12,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php'?>
       <div class="gallery">
         <div class="gallery__filters">
           <button data-filter-type="all" class="button button-secondary button-gallery button-active border-br-tl">Все <span class="button-gallery__number">0</span></button>
-          <button data-filter-type="bathroom" class="button button-secondary button-gallery border-br-tl">Мебель в ванную <span class="button-gallery__number">0</span></button>
           <button data-filter-type="kitchen" class="button button-secondary button-gallery border-br-tl">Кухни <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="bathroom" class="button button-secondary button-gallery border-br-tl">Мебель в ванную <span class="button-gallery__number">0</span></button>
           <button data-filter-type="closet" class="button button-secondary button-gallery border-br-tl">Шкафы-купе <span class="button-gallery__number">0</span></button>
-          <button data-filter-type="bed" class="button button-secondary button-gallery border-br-tl">Кровати <span class="button-gallery__number">0</span></button>
           <button data-filter-type="wardbore" class="button button-secondary button-gallery border-br-tl">Гардеробы <span class="button-gallery__number">0</span></button>
           <button data-filter-type="coffee" class="button button-secondary button-gallery border-br-tl">Кофейни <span class="button-gallery__number">0</span></button>
+          <button data-filter-type="other" class="button button-secondary button-gallery border-br-tl">Разное <span class="button-gallery__number">0</span></button>
         </div>
         <!-- /.gallery__filters -->
 

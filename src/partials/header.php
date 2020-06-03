@@ -10,23 +10,23 @@
   <title><?php echo $title ?></title>
 
   <!-- Иконки для страницы -->
-  <link rel="shortcut icon" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/favicon.png" type="image/png">
-  <link rel="shortcut icon" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/favicon.ico" type="image/x-icon">
-  <link rel="icon" sizes="16x16" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/favicon-16x16.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/favicon-32x32.png" type="image/png">
-  <link rel="apple-touch-icon-precomposed" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-167x167.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-180x180.png">
-  <link rel="apple-touch-icon" sizes="1024x1024" href="<?php $_SERVER['DOCUMENT_ROOT']?>/img/favicons/apple-touch-icon-1024x1024.png">
+  <link rel="shortcut icon" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/favicons/apple-touch-icon-1024x1024.png">
 
   <!-- Метатаги которые выводят информацию о странице в поисковой запрос -->
   <meta name="description" content="<?php echo $description ?>" />
@@ -49,8 +49,9 @@
   <meta name="yandex-verification" content="" />
 
   <!-- Стили -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- build:css -->
-  <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT']?> /css/style.css" />
+  <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /css/style.css" />
   <!-- endbuild -->
 </head>
 
@@ -58,14 +59,14 @@
   <!-- Шапка -->
   <header id="header">
     <div class="container">
-      <img id="parallax" class="logo" src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/logo.svg" alt="Логотип">
+      <img id="parallax" class="logo" src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/img/logo.svg" alt="Логотип">
 
       <nav class="nav">
         <ul class="nav__navbar">
-          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/index.php" class="nav__link">Главная</a></li>
-          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/portfolio/index.php" class="nav__link">Наши работы</a></li>
-          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/materials.php" class="nav__link">С чем работаем</a></li>
-          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/order.php" class="nav__link">Схема заказа</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/index.php" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/portfolio/index.php" class="nav__link">Наши работы</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/materials.php" class="nav__link">С чем работаем</a></li>
+          <li class="nav__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/order.php" class="nav__link">Схема заказа</a></li>
         </ul>
       </nav>
 
@@ -83,11 +84,11 @@
       </div>
       <!-- /.callback -->
 
-      <form action="" class="form form-callback">
+      <form action="php/send.php" class="form form-callback">
         <p class="form-callback__title">Перезвоните мне</p>
         <input type="text" class="form-callback__input input border-br-tl" placeholder="Имя" name="user_name">
         <input type="tel" class="form-callback__input input border-br-tl" placeholder="Телефон" name="user_phone">
-        <button type="button" class="form-callback__button button button-form border-bl-tr">Отправить заявку</button>
+        <button disabled type="button" class="form-callback__button button button-active border-bl-tr">Отправить заявку</button>
         <div class="form-callback__policy policy">
           <label class="checkbox">
             <input type="checkbox">
@@ -112,10 +113,10 @@
 
   <div id="mobile-menu" class="mobile-menu mobile-menu--slide">
     <ul class="mobile-menu__navbar">
-      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/index.php" class="mobile-menu__link">Главная</a></li>
-      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/portfolio/index.php" class="mobile-menu__link">Наши работы</a></li>
-      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/materials.php" class="mobile-menu__link">С чем работаем</a></li>
-      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/order.php" class="mobile-menu__link">Схема заказа</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/index.php" class="mobile-menu__link">Главная</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/portfolio/index.php" class="mobile-menu__link">Наши работы</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/materials.php" class="mobile-menu__link">С чем работаем</a></li>
+      <li class="mobile-menu__item"><a href="<?php $_SERVER['DOCUMENT_ROOT'] ?>/order.php" class="mobile-menu__link">Схема заказа</a></li>
     </ul>
 
     <div class="callback">

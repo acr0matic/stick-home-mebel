@@ -1,5 +1,4 @@
 /*global MicroModal */
-/*global ActiveXObject */
 
 // Маска номера телефона
 var phoneInputs = document.querySelectorAll("input[type=tel]");
@@ -49,6 +48,7 @@ function mask(event) {
 
 let form_callback = document.querySelector(".form-callback");
 let form_callbackBottom = document.querySelector(".callback-form");
+console.log("form_callbackBottom", form_callbackBottom)
 
 if (form_callback) AJAXform(form_callback);
 if (form_callbackBottom) AJAXform(form_callbackBottom);
@@ -117,15 +117,18 @@ function AJAXform(form, formMethod = "post") {
     }
 
     httpRequest.onreadystatechange = function () {
+
       if (this.readyState == 4 && this.status == 200) {
-        MicroModal.close("modal-callback");
-        MicroModal.show("modal-accept");
+        acceptButton.innerHTML = "Отправить заявку";
+        MicroModal.show("modalAccept");
 
         for (const input of formInputs) {
           input.value = "";
           input.checked = false;
         }
       }
+
+      acceptButton.toggleAttribute("disabled");
     };
 
     httpRequest.open(formMethod, formAction);
@@ -134,7 +137,8 @@ function AJAXform(form, formMethod = "post") {
 
   acceptButton.onclick = function () {
     if (CheckForm(form)) {
-      errorLabel.style.display = "none";
+      errorLabel.style.display = "none";      
+      acceptButton.innerHTML = '<i class="button__loader fa fa-circle-o-notch fa-spin"></i>Отправляем';
       XMLhttp();
     }
   };
@@ -142,21 +146,4 @@ function AJAXform(form, formMethod = "post") {
   form.onsubmit = function () {
     return false;
   };
-}
-
-function getXmlHttp() {
-  var xmlhttp;
-  try {
-    xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
-  } catch (e) {
-    try {
-      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-    } catch (E) {
-      xmlhttp = false;
-    }
-  }
-  if (!xmlhttp && typeof XMLHttpRequest != "undefined") {
-    xmlhttp = new XMLHttpRequest();
-  }
-  return xmlhttp;
 }

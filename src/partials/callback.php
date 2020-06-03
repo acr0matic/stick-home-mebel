@@ -6,7 +6,7 @@
         </div>
         <!-- /.callback-title -->
 
-        <form action="" class="callback-form">
+        <form action="php/send.php" class="callback-form">
           <div class="callback-form__action">
             <input class="input input-form border-br-tl" name="user_name" type="text" placeholder="Имя">
             <input class="input input-form border-br-tl" name="user_phone" type="tel" placeholder="Номер телефона">
