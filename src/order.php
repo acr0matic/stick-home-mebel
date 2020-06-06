@@ -43,7 +43,7 @@ include 'partials/header.php' ?>
           <p class="communication-method__description paragraph">Просто позвоните по нашему номеру и менеджер
             примет Ваш заказ, а так же проконсультирует по любым вопросам: по доставке, оплате и самому
             заказу.</p>
-          <a class="communication-method__phone" href="tel:"><button class="button button-secondary button-communication border-bl-tr">Позвонить
+          <a class="communication-method__phone" href="tel:+74993906764"><button class="button button-secondary button-communication border-bl-tr">Позвонить
               самому</button></a>
         </div>
         <!-- /.communication-method -->
