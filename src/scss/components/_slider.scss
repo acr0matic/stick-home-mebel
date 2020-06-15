@@ -7,7 +7,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      justify-content: space-between;
+    }
   }
 
   &__pagination {

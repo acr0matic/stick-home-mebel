@@ -21,6 +21,8 @@ var favicons = require("gulp-favicons");
 var sitemap = require("gulp-sitemap");
 var robots = require("gulp-robots/es5");
 
+var browserSync = require("browser-sync").create();
+
 sass.compiler = require("node-sass");
 
 // Конфиг объект, здесь прописаны все пути для сборщика
@@ -33,7 +35,7 @@ var config = {
   js_compiled_path: "src/scripts/compiled/script.compiled.js",
 
   img_path: "src/img/**/*.{jpg,jpeg,png,gif,svg}",
-  html_path: "src/**/*.html",
+  html_path: "src/**/*.{html,php}",
   scss_path: "src/scss/**/*.scss",
   css_compiled_path: "src/css/*.css",
   favicon_path: "src/img/favicons/*",
@@ -53,8 +55,8 @@ var config = {
   js_out_compiled_name: "script.compiled.js",
   js_out_min_name: "script.min.js",
 
-  css_replace_out: "css/style.min.css",
-  js_replace_out: "js/script.min.js",
+  css_replace_out: "<link rel='stylesheet' href='<?php $_SERVER['DOCUMENT_ROOT']?>/css/style.min.css' />",
+  js_replace_out: "<script src='<?php $_SERVER['DOCUMENT_ROOT']?>/js/script.min.js'></script>",
 };
 
 // Массив путей до других файлов
@@ -66,9 +68,26 @@ var filesToMove = [
   "src/files/**/*.*",
 ];
 
+gulp.task("browser-sync", function () {
+  browserSync.init({
+    proxy: "stick-home-mebel.ru",
+    baseDir: "src",
+    directory: true,
+  });
+});
+
 // Стандартная задача gulp, она же - задача для разработки
 gulp.task("default", function () {
+  browserSync.init({
+    proxy: "stick-home-mebel.ru",
+    baseDir: "src",
+    directory: true,
+    notify: false,
+    injectChanges: true
+  });
+
   gulp.watch(config.scss_path, gulp.series("scss"));
+  gulp.watch("src/*.php").on('change', browserSync.reload);
 });
 
 // Очистка папки с собранным проектом
@@ -104,7 +123,8 @@ gulp.task("scss", function () {
     .pipe(sass())
     .pipe(rename(config.css_out_name))
     .pipe(sourcemaps.write("."))
-    .pipe(gulp.dest(config.compiled_ccs_out));
+    .pipe(gulp.dest(config.compiled_ccs_out))
+    .pipe(browserSync.stream({ match: '**/*.css' }));
 });
 
 // Задача для проставления вендорных префиксов в стилях
@@ -126,7 +146,7 @@ gulp.task("css-minify", function () {
     .pipe(cleanCSS({ compatibility: "ie8", level: 2 }))
     .pipe(
       purgecss({
-        content: ["src/**/*.html", "src/**/*.js"],
+        content: ["src/**/*.{html,php}", "src/**/*.js"],
       })
     )
     .pipe(rename(config.css_out_min_name))
@@ -219,7 +239,7 @@ gulp.task("sitemap", function () {
 // Задача генерации файла robots.txt
 gulp.task("robots", function () {
   return gulp
-    .src("src/index.html")
+    .src("src/index.{html,php}")
     .pipe(
       robots({
         useragent: "*",
